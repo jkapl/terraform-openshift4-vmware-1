@@ -9,6 +9,9 @@ vsphere_image_datastore      = "dc01-ocp01"
 vsphere_public_network       = "vDPortGroup"
 vsphere_private_network      = "vdpg-192.168.100"
 vsphere_image_datastore_path = "images"
+# preexisting_resource_pool  = true
+# vsphere_resource_pool      = "abc"
+# vsphere_folder             = "Path/to/cluster"
 
 public_network_gateway = "9.42.67.129"
 public_network_netmask = 25

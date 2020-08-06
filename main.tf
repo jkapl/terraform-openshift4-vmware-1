@@ -221,6 +221,7 @@ module "deploy" {
 
 resource "vsphere_folder" "folder" {
   path          = var.openshift_cluster_id
+  # path         = var.vsphere_folder
   type          = "vm"
   datacenter_id = data.vsphere_datacenter.datacenter.id
 }
